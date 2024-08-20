@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Minimalist Weather App
 
-## Get started
+A sleek, cross-platform weather app with a minimalist UI/UX, built using React Native for Android.
 
-1. Install dependencies
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## Features
+
+- 🌤 **Minimalist Design**: Clean and simple interface for easy access to weather information.
+- 🌡 **Real-Time Data**: Fetches up-to-date weather information.
+- 🌈 **Dynamic Themes**: The theme changes according to the weather.
+
+## Installation
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- [Android Studio](https://developer.android.com/studio) or [Xcode](https://developer.apple.com/xcode/) (for running on Android/iOS emulators)
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/minimalist-weather-app.git
+   cd minimalist-weather-app
+   ```
+
+2. **Install Dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Run on Android**
    ```bash
-    npx expo start
+   npx react-native run-android
    ```
 
-In the output, you'll find options to open the app in a
+   **Run on iOS**
+   ```bash
+   npx react-native run-ios
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Once the app is running, it will automatically fetch the weather data for your current location. You can also search for weather information by entering a city name in the search bar.
 
-## Get a fresh project
+## Technologies Used
 
-When you're ready, run:
+- **React Native**: For building the cross-platform app.
+- **Redux**: For state management.
+- **Axios**: For making API requests.
+- **OpenWeather API**: For fetching weather data.
+- **React Navigation**: For app navigation.
 
-```bash
-npm run reset-project
-```
+## Contributing
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Contributions are welcome! If you'd like to help improve this project, please fork the repository and create a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
-## Learn more
+### Steps to Contribute
 
-To learn more about developing your project with Expo, look at the following resources:
+1. **Fork the Repository**
+2. **Create a New Branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**
+4. **Commit Your Changes**
+   ```bash
+   git commit -m "Add feature description"
+   ```
+5. **Push to Your Branch**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
+## Contact
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+If you have any questions or suggestions, feel free to contact me at [aparupganguly86@gmail.com](aparupganguly86@gmail.com).
+
+---
+
+
+![009](https://github.com/user-attachments/assets/189e1820-6a3e-4848-82f5-1c1d0a28f3c2)
+![image](https://github.com/user-attachments/assets/6b9279e9-ced4-4294-8e88-2d44fe624d23)
